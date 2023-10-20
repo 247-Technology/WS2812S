@@ -1,0 +1,24 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "${workspaceFolder}/**",
+        "/opt/ros/noetic/include/**",
+        "/home/khanh/last/src/send/include/**",
+        "/usr/include/**",
+        "/home/khanh/.vscode/extensions/ms-python.vscode-pylance-2023.10.20/dist/typeshed-fallback/stubs/pyserial",
+        "/usr/include/gtk-3.0/gtk/gtk.h"
+      ],
+      "name": "linux-gcc-x64",
+      "intelliSenseMode": "linux-gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -11,6 +11,7 @@ find_package(catkin REQUIRED COMPONENTS
   roscpp
   rospy
   std_msgs
+  serial
 )
 
 ## System dependencies are found with CMake's conventions
@@ -118,6 +119,7 @@ catkin_package(
 include_directories(
 # include
   ${catkin_INCLUDE_DIRS}
+  /home/khanh/.local/lib/python3.8/site-packages/pyserial-3.5.dist-info
 )
 
 ## Declare a C++ library
@@ -211,4 +213,13 @@ catkin_install_python(PROGRAMS
   
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
+add_executable(fix src/fix.cpp)
+target_link_libraries(fix ${catkin_LIBRARIES})
+## Find and link the Serial library
+find_package(serial REQUIRED CONFIG)
+include_directories(${serial_INCLUDE_DIRS})
+target_link_libraries(fix serial)
 
+include_directories(${Qt5Core_INCLUDE_DIRS} ${Qt5Widgets_INCLUDE_DIRS})
+link_directories(${Qt5Core_LIBRARY_DIRS} ${Qt5Widgets_LIBRARY_DIRS})
+target_link_libraries(fix ${Qt5Core_LIBRARIES} ${Qt5Widgets_LIBRARIES})

@@ -1,0 +1,2 @@
+send
+-DCATKIN_DEVEL_PREFIX=/home/khanh/last/devel -DCMAKE_INSTALL_PREFIX=/home/khanh/last/install -G Unix Makefiles
