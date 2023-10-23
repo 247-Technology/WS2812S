@@ -407,32 +407,32 @@ rosgraph_msgs_generate_messages_py/fast:
 	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build.make send/CMakeFiles/rosgraph_msgs_generate_messages_py.dir/build
 .PHONY : rosgraph_msgs_generate_messages_py/fast
 
-src/fix.o: src/fix.cpp.o
+src/src/fix.o: src/src/fix.cpp.o
 
-.PHONY : src/fix.o
+.PHONY : src/src/fix.o
 
 # target to build an object file
-src/fix.cpp.o:
-	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/fix.dir/build.make send/CMakeFiles/fix.dir/src/fix.cpp.o
-.PHONY : src/fix.cpp.o
+src/src/fix.cpp.o:
+	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/fix.dir/build.make send/CMakeFiles/fix.dir/src/src/fix.cpp.o
+.PHONY : src/src/fix.cpp.o
 
-src/fix.i: src/fix.cpp.i
+src/src/fix.i: src/src/fix.cpp.i
 
-.PHONY : src/fix.i
+.PHONY : src/src/fix.i
 
 # target to preprocess a source file
-src/fix.cpp.i:
-	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/fix.dir/build.make send/CMakeFiles/fix.dir/src/fix.cpp.i
-.PHONY : src/fix.cpp.i
+src/src/fix.cpp.i:
+	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/fix.dir/build.make send/CMakeFiles/fix.dir/src/src/fix.cpp.i
+.PHONY : src/src/fix.cpp.i
 
-src/fix.s: src/fix.cpp.s
+src/src/fix.s: src/src/fix.cpp.s
 
-.PHONY : src/fix.s
+.PHONY : src/src/fix.s
 
 # target to generate assembly for a file
-src/fix.cpp.s:
-	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/fix.dir/build.make send/CMakeFiles/fix.dir/src/fix.cpp.s
-.PHONY : src/fix.cpp.s
+src/src/fix.cpp.s:
+	cd /home/khanh/last/build && $(MAKE) -f send/CMakeFiles/fix.dir/build.make send/CMakeFiles/fix.dir/src/src/fix.cpp.s
+.PHONY : src/src/fix.cpp.s
 
 # Help Target
 help:
@@ -463,9 +463,9 @@ help:
 	@echo "... rosgraph_msgs_generate_messages_lisp"
 	@echo "... roscpp_generate_messages_lisp"
 	@echo "... rosgraph_msgs_generate_messages_py"
-	@echo "... src/fix.o"
-	@echo "... src/fix.i"
-	@echo "... src/fix.s"
+	@echo "... src/src/fix.o"
+	@echo "... src/src/fix.i"
+	@echo "... src/src/fix.s"
 .PHONY : help
 
 

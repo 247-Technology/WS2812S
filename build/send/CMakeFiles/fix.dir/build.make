@@ -57,27 +57,27 @@ include send/CMakeFiles/fix.dir/progress.make
 # Include the compile flags for this target's objects.
 include send/CMakeFiles/fix.dir/flags.make
 
-send/CMakeFiles/fix.dir/src/fix.cpp.o: send/CMakeFiles/fix.dir/flags.make
-send/CMakeFiles/fix.dir/src/fix.cpp.o: /home/khanh/last/src/send/src/fix.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh/last/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object send/CMakeFiles/fix.dir/src/fix.cpp.o"
-	cd /home/khanh/last/build/send && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fix.dir/src/fix.cpp.o -c /home/khanh/last/src/send/src/fix.cpp
+send/CMakeFiles/fix.dir/src/src/fix.cpp.o: send/CMakeFiles/fix.dir/flags.make
+send/CMakeFiles/fix.dir/src/src/fix.cpp.o: /home/khanh/last/src/send/src/src/fix.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/khanh/last/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object send/CMakeFiles/fix.dir/src/src/fix.cpp.o"
+	cd /home/khanh/last/build/send && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/fix.dir/src/src/fix.cpp.o -c /home/khanh/last/src/send/src/src/fix.cpp
 
-send/CMakeFiles/fix.dir/src/fix.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fix.dir/src/fix.cpp.i"
-	cd /home/khanh/last/build/send && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh/last/src/send/src/fix.cpp > CMakeFiles/fix.dir/src/fix.cpp.i
+send/CMakeFiles/fix.dir/src/src/fix.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fix.dir/src/src/fix.cpp.i"
+	cd /home/khanh/last/build/send && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/khanh/last/src/send/src/src/fix.cpp > CMakeFiles/fix.dir/src/src/fix.cpp.i
 
-send/CMakeFiles/fix.dir/src/fix.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fix.dir/src/fix.cpp.s"
-	cd /home/khanh/last/build/send && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh/last/src/send/src/fix.cpp -o CMakeFiles/fix.dir/src/fix.cpp.s
+send/CMakeFiles/fix.dir/src/src/fix.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fix.dir/src/src/fix.cpp.s"
+	cd /home/khanh/last/build/send && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/khanh/last/src/send/src/src/fix.cpp -o CMakeFiles/fix.dir/src/src/fix.cpp.s
 
 # Object files for target fix
 fix_OBJECTS = \
-"CMakeFiles/fix.dir/src/fix.cpp.o"
+"CMakeFiles/fix.dir/src/src/fix.cpp.o"
 
 # External object files for target fix
 fix_EXTERNAL_OBJECTS =
 
-/home/khanh/last/devel/lib/send/fix: send/CMakeFiles/fix.dir/src/fix.cpp.o
+/home/khanh/last/devel/lib/send/fix: send/CMakeFiles/fix.dir/src/src/fix.cpp.o
 /home/khanh/last/devel/lib/send/fix: send/CMakeFiles/fix.dir/build.make
 /home/khanh/last/devel/lib/send/fix: /opt/ros/noetic/lib/libroscpp.so
 /home/khanh/last/devel/lib/send/fix: /usr/lib/x86_64-linux-gnu/libpthread.so

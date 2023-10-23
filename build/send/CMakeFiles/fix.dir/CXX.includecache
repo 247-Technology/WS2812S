@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/khanh/last/src/send/src/fix.cpp
+/home/khanh/last/src/send/src/src/fix.cpp
 ros/ros.h
 -
 std_msgs/String.h

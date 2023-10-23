@@ -207,13 +207,13 @@ include_directories(
 ## Add folders to be run by python nosetests
 # catkin_add_nosetests(test)
 catkin_install_python(PROGRAMS
-  src/main.py
-  src/main1.py
-  src/sum.py
+  src/scripts/main.py
+  src/scripts/main1.py
+  src/scripts/sum.py
   
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
-add_executable(fix src/fix.cpp)
+add_executable(fix src/src/fix.cpp)
 target_link_libraries(fix ${catkin_LIBRARIES})
 ## Find and link the Serial library
 find_package(serial REQUIRED CONFIG)
